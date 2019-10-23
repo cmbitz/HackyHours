@@ -1,0 +1,19 @@
+Cecilia created this notebook to read in the NASA Team monthly PM. The
+data are in binary, which ancient and horible. We'll read it into an
+Xarray. This notebook has a subroutine for computing regional means in
+the standard NSIDC regions.
+
+The graphics are far from publication quality, but they get the job done.
+
+The two shell scripts can be used to run this notebook on the atmos
+sci network. If you don't have an account on the atmos sci network,
+ask to get you one.
+
+
+If you are having trouble getting the ipynb file to render from GitHub
+and keep getting the message "Sorry, something went wrong. Reload?" 
+
+It is not my fault! But here is a workaround
+
+Open "https://nbviewer.jupyter.org/"
+Paste the link to your notebook in the form
