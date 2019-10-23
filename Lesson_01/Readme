@@ -1,7 +1,0 @@
-Cecilia created this notebook to read in the NASA Team monthly PM. The
-data are in binary, which ancient and horible. We'll read it into an
-Xarray. This notebook has a subroutine for computing regional means in
-the standard NSIDC regions.
-
-The graphics are far from publication quality, but they get the job done.
-
