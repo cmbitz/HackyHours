@@ -1,2 +1,21 @@
 This repository is for lessons taught during Hacky Hour at University
 of Washington Atmospheric Sciences.
+
+
+Some git tips
+
+To "clone" or download a copy of this repo on your local computer, go
+to a place you'd like to put it on your local harddrive. Then type the
+command below. FYI, you don't need to fork the repo (which means to
+duplicate the repo on GitHub under your account) since you are welcome
+to have write access to this "group" repo.
+
+> git clone https://github.com/cmbitz/HackyHours
+
+If you want to put a file on the repo (and CC has added you have a contributor so you have write access), go to the directory of this README and type the following:
+
+> git status
+> git add subdirectory/filename
+> git commit -m "some text to say what you are committing"
+
+
