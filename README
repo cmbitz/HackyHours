@@ -17,5 +17,6 @@ If you want to put a file on the repo (and CC has added you have a contributor s
 > git status
 > git add subdirectory/filename
 > git commit -m "some text to say what you are committing"
+> git push
 
 
