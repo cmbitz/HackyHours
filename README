@@ -12,10 +12,13 @@ to have write access to this "group" repo.
 
 > git clone https://github.com/cmbitz/HackyHours
 
-If you want to put a file on the repo (and CC has added you have a contributor so you have write access), go to the directory of this README and type the following:
+If you want to put a file on the repo (and CC has added you as a
+contributor so you have write access), go to the directory of this
+README and type the following:
 
 > git status
 > git add subdirectory/filename
 > git commit -m "some text to say what you are committing"
+> git push
 
 
