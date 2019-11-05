@@ -4,6 +4,40 @@ of Washington Atmospheric Sciences.
 
 Some git tips
 
+I recommend that you fork this repo so you make a copy in you own
+account.  Then you can add stuff to your copy of the repo. Just hit
+the "Fork" button in the upper left.
+
+Then clone your repository
+> git clone https://github.com/whateveritis
+
+Once you have your own repo and you want to put a file on it go to the
+directory of this README and type the following:
+
+> git status
+> git add subdirectory/filename
+> git commit -m "some text to say what you are committing"
+> git push
+
+At some point if you'd like to get the latest stuff from this master
+repo (it's a good idea make sure your own repository is up to date
+first), type the following:
+
+> git remote add upstream https://github.com/cmbitz/HackyHours
+> git fetch upstream
+> git merge upstream/master
+
+or we think equivalently 
+
+> git remote add upstream https://github.com/cmbitz/HackyHours
+> git pull upstream master
+
+
+---------------------- the following is not recommended ----
+
+However if you don't want to add stuff to the master you can just do
+the following.
+
 To "clone" or download a copy of this repo on your local computer, go
 to a place you'd like to put it on your local harddrive. Then type the
 command below. FYI, you don't need to fork the repo (which means to
@@ -11,6 +45,7 @@ duplicate the repo on GitHub under your account) since you are welcome
 to have write access to this "group" repo.
 
 > git clone https://github.com/cmbitz/HackyHours
+
 
 If you want to put a file on the repo (and CC has added you as a
 contributor so you have write access), go to the directory of this
