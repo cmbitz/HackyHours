@@ -11,8 +11,9 @@ the "Fork" button in the upper left.
 Then clone your repository
 > git clone https://github.com/whateveritis
 
-Once you have your own repo and you want to put a file on it go to the
-directory of this README and type the following:
+Once you have your own repo and you want to put a file on your local
+repository back up on git, go to the directory of this README and type
+the following:
 
 > git status
 > git add subdirectory/filename
