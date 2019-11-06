@@ -24,13 +24,13 @@ At some point if you'd like to get the latest stuff from this master
 repo (it's a good idea make sure your own repository is up to date
 first), type the following:
 
-> git remote add upstream https://github.com/cmbitz/HackyHours
+> git remote add upstream https://github.com/cmbitz/HackyHours.git
 > git fetch upstream
 > git merge upstream/master
 
 or we think equivalently 
 
-> git remote add upstream https://github.com/cmbitz/HackyHours
+> git remote add upstream https://github.com/cmbitz/HackyHours.git
 > git pull upstream master
 
 
