@@ -17,7 +17,7 @@ while ($mo <= 12)
   echo 
 
 #uncomment when you have data
-#  ncea ${casename}.*-$mo.nc ${casename}_${mo}_climo.nc
+#  ncea ${casename}.*-${mostr}.nc ${casename}_${mostr}_climo.nc
 
   @ mo ++
 end
@@ -29,7 +29,7 @@ foreach mo (`seq 1 12`)
   echo ${casename}_${mostr}_climo.nc   
 
 #uncomment when you have data
-#  ncea ${casename}.*-$mo.nc ${casename}_${mo}_climo.nc
+#  ncea ${casename}.*-${mostr}.nc ${casename}_${mostr}_climo.nc
 
 end
 
