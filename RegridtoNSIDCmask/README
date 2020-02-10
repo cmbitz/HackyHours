@@ -1,0 +1,5 @@
+These scripts are for computing the sea ice extent in each of the NSIDC Arctic regional domains.
+
+Regrid_regions_to_model_grid.ipynb run this first to create a "mask" of the regions on the native grid for each model.
+
+Calc_Model_Aggregations.ipynb run this next to aggregate regional sums via the mask
